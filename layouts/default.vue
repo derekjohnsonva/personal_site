@@ -1,10 +1,21 @@
 <template>
   <div>
-    <nuxt/>
+    <Nav />
+    <nuxt nuxt-child-key="none" role="main"/>
   </div>
 </template>
 
+<script>
+import Nav from "~/components/navBar.vue";
+export default {
+  components: {
+    Nav
+  }
+};
+</script>
+
 <style>
+@import '@/assets/css/bootstrap_theme.css';
 html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
