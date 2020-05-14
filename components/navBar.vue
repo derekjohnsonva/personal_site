@@ -1,6 +1,6 @@
 <template>
     <header class="header">
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">DJ</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,22 +22,37 @@
                         </li>
                     </ul>
                 </div>
+                <VueScrollProgressBar backgroundColor='rgb(153,183,196)' height='.5rem' />
             </div>
             <!-- End container -->
         </nav>
     </header>
 </template>
+
 <script>
+import { VueScrollProgressBar } from '@guillaumebriday/vue-scroll-progress-bar'
+
 export default {
   name: "nav-bar",
   components: {
+      VueScrollProgressBar,
   }
 };
 </script>
 <style>
+.progress-bar-container--container {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
 .navbar-collapse .navbar .nav, .navbar .nav > li {
     float:none;
     display:inline-block;
     vertical-align: top;
+}
+.navbar{
+    z-index:0;
 }
 </style>

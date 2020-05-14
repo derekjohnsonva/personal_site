@@ -21,3 +21,8 @@ $ npm run generate
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 
+## Useful Resources 
+
+* [Making a static site using vue.js](https://codeburst.io/create-a-static-site-in-15-minutes-or-less-using-vue-js-e4e2a9945ee6)
+* [Getting started with nuxt](https://www.smashingmagazine.com/2020/04/getting-started-nuxt/)
+* [Add bootsrap to nuxt](https://medium.com/@jpoechill/quick-add-bootstrap-4-to-your-nuxt-js-app-f05fce00b74a)

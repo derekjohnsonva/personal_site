@@ -1,21 +1,30 @@
 <template>
   <div>
     <Nav />
+    <Splash />
+    <Contact />
     <nuxt nuxt-child-key="none" role="main"/>
   </div>
 </template>
 
 <script>
+import Vue from 'vue'
 import Nav from "~/components/navBar.vue";
+import Splash from "~/components/splash.vue"
+import Contact from "~/components/contact.vue"
 export default {
   components: {
-    Nav
+    Nav,
+    Splash,
+    Contact,
   }
 };
+
 </script>
 
 <style>
 @import '@/assets/css/bootstrap_theme.css';
+
 html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
