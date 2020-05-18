@@ -1,5 +1,10 @@
 <template>
   <div class="">
-    <h1>Hello</h1>
+    
   </div>
 </template> 
+<script>
+export default {
+  layout: 'home'
+}
+</script>

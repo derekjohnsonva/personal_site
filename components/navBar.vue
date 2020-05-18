@@ -9,16 +9,19 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            <nuxt-link to="/" class="nav-link">Home</nuxt-link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Projects</a>
+                            <nuxt-link to="/" class="nav-link">Bio</nuxt-link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Resume</a>
+                            <nuxt-link to="/" class="nav-link">Projects</nuxt-link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Contact</a>
+                            <nuxt-link to="/" class="nav-link">Resume</nuxt-link>
+                        </li>
+                        <li class="nav-item">
+                            <nuxt-link to="/" class="nav-link">Contact</nuxt-link>
                         </li>
                     </ul>
                 </div>

@@ -1,9 +1,7 @@
 <template>
   <div class="container-flex">
     <Nav />
-    <Splash />
     <Bio />
-    <Contact />
     <nuxt nuxt-child-key="none" role="main"/>
   </div>
 </template>
@@ -11,15 +9,11 @@
 <script>
 import Vue from 'vue'
 import Nav from "~/components/navBar.vue";
-import Splash from "~/components/splash.vue"
-import Contact from "~/components/contact.vue"
 import Bio from "~/components/bio.vue"
 
 export default {
   components: {
     Nav,
-    Splash,
-    Contact,
     Bio,
   }
 };
